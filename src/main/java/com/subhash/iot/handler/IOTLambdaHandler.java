@@ -13,8 +13,8 @@ import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 
 public class IOTLambdaHandler {
-	public static final String ACCOUNT_SID ="ACd676961592d88f4793e74cc146cab7e7";
-    public static final String AUTH_TOKEN ="f1a35c0e11c67c569354d30f0aff5fc7";
+	public static final String ACCOUNT_SID ="Test";
+    public static final String AUTH_TOKEN ="Test";
 
 	public IOTResponse handleRequest(IOTButtonRequest request, Context context) throws JsonProcessingException, URISyntaxException {
 		System.out.println("Subhash Is TESTING from AWS BUTTON");
